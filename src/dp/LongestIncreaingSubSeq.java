@@ -1,6 +1,7 @@
 package dp;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class LongestIncreaingSubSeq {
     public static void main(String[] args) {
@@ -16,5 +17,8 @@ public class LongestIncreaingSubSeq {
                 }
             }
         System.out.println(Arrays.stream(LIS).max().getAsInt());
+        HashMap<Character,Integer> s = new HashMap();
+        s.put('c',1);
+        System.out.println(s.size());
     }
 }
