@@ -94,6 +94,7 @@ public class ECommerceDataSetup {
                 new Order("O009", "U004", Arrays.asList(products.get(0), products.get(3)), LocalDate.now().minusDays(1))
         );
 
+
         // --- Print sample data ---
         System.out.println("Users:");
         users.forEach(u -> System.out.println(u.getUserId() + " | " + u.getName() + " | " + u.getAge() + " | " + u.getCountry()));
